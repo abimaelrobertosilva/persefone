@@ -141,8 +141,9 @@ body{
 
 @media (max-width: 1280px){
 .cabecalho__texto{
-        font-size: 18px;
+        font-size: 28px;
     }
+    
     
     .apresentacao{
         flex-direction: column;
