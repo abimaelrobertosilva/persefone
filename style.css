@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+:root{
+    --cor-fundo: #12111F;
+    --cor-primaria: #EF6EBE;
+    --cor-secudaria: white;
+    --font-texto: "Allura", cursive;
+    --font-cabecalho: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: white;
+}
+
+
+        /* PAGINA 1 */
+.apresentacao_pag1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+.imagem{
+        height: 300px;
+    }
+
+.titulo{
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    /* PAGINA 2 */
+
+        /* Cabecalho */
+
+.cabecalho{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__texto{
+    font-family: var(--font-cabecalho);
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.link__home{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 5px solid var(--cor-primaria);
+    
+}
+
+.home{
+    font-family:var(--font-cabecalho);
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--cor-secudaria);
+}
+
+        /* Conteudo */
+
+.apresentacao{
+    margin: 10% 6% 0% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+        /* Bloco - 1 Logo */
+
+.imagem__logo{
+    padding-left: 15%;
+}
+
+.empresa_logo{
+    font-family: var(--font-texto);
+    font-weight: 400;
+    font-size: 66px;
+}
+
+        /* Bloco - 2 Cores */
+
+.circulos{
+    display: flex;
+    flex-direction: column;
+    gap: 165px;
+}
+
+.circulo__roxo, .circulo__rosa, .circulo__branco{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.circulo__roxo{
+    background-color: var(--cor-fundo);
+    border: 2px solid var(--cor-secudaria);
+}
+
+.circulo__rosa{
+    background-color: var(--cor-primaria);
+}
+
+.circulo__branco{
+    background-color: var(--cor-secudaria);
+}
+
+        /* Bloco - 2 Span */
+
+.circulos__span{
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+}
+
+.texto__span{
+    font-size: 24.5px;
+}
+
+        /* Bloco - 3 conteudo Texto */
+
+.conteudo__logo{
+    width: 518px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    text-align: justify;
+
+}
+
+@media (max-width: 1280px){
+    .apresentacao{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .circulos{
+        flex-direction: row;
+        gap: 180px;
+    }
+    .circulos__span{
+        flex-direction: row;
+        text-align: center;
+        gap: 30px;
+    }
+}
