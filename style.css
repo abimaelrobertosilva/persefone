@@ -204,7 +204,7 @@ body{
 }
     .circulos{
         flex-direction: row;
-        gap: 80px;
+        gap: 85px;
     }
     .circulos__span{
         flex-direction: row;
