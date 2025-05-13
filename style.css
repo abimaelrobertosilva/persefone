@@ -140,6 +140,21 @@ body{
 
 }
 
+.creditos{
+    margin: 5% 0 0 0 ;
+    text-align: center;
+    align-items: center;
+}
+
+.texto__creditos{
+    padding: 1%;
+    background-color: #EF6EBE;
+    color: var(--cor-secudaria);
+    font-family:var(--font-texto);
+    font-size: 40px;
+    font-weight: 400;
+}
+
 @media (max-width: 1280px){
     .cabecalho{
         align-items: center;
@@ -176,14 +191,6 @@ body{
     .texto__span{
     font-size: 10.5px;
 }
-
-.conteudo__logo{
-    width: 80%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
-    text-align: justify;
-    
-}
     .apresentacao{
         flex-direction: column;
         gap: 60px;
@@ -210,4 +217,15 @@ body{
         text-align: center;
         gap: 20px;
     }
+
+    .conteudo__logo{
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: justify;
+    
+}
+.texto__creditos{
+    font-size: 22px;
+}
 }
