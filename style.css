@@ -28,12 +28,13 @@ body{
     }
 
 .imagem{
-        height: 300px;
+        height: 18rem;
+        width: 18rem;
     }
 
 .titulo{
         font-weight: 400;
-        font-size: 50px;
+        font-size: 3rem;
     }
 
     /* PAGINA 2 */
@@ -53,9 +54,9 @@ body{
 }
 
 .link__home{
-    padding: 10px;
+    padding: 0.5rem;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 0.5rem;
     border: 5px solid var(--cor-primaria);
     
 }
@@ -132,7 +133,7 @@ body{
         /* Bloco - 3 conteudo Texto */
 
 .conteudo__logo{
-    width: 518px;
+    width: 32rem;
     font-family: 'Times New Roman', Times, serif;
     font-size: 26px;
     text-align: justify;
@@ -140,22 +141,72 @@ body{
 }
 
 @media (max-width: 1280px){
-.cabecalho__texto{
+    .cabecalho{
+        align-items: center;
+    }
+    .cabecalho__texto{
         font-size: 28px;
     }
+    .home{
+        font-size: 28px;
+    }
+    .link__home{
+        padding: auto;
+    }
+
+    .apresentacao{
+        margin: 0%;
+    }
+
+    .logo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagem__logo{
+        padding: 0;
+    }
+
+    .empresa_logo{
+        font-size: 33px;
+    }
+
+
+    .texto__span{
+    font-size: 10.5px;
+}
+
+.conteudo__logo{
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: justify;
     
-    
+}
     .apresentacao{
         flex-direction: column;
         gap: 60px;
     }
+
+
+    .circulo__roxo, .circulo__rosa, .circulo__branco{
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+}
     .circulos{
         flex-direction: row;
-        gap: 180px;
+        gap: 80px;
     }
     .circulos__span{
         flex-direction: row;
+        gap: 0px
+    }
+    .texto__span{
+        padding: 0% 5% 0% 10%;
+        width: 50%;
+        justify-content: center;
         text-align: center;
-        gap: 30px;
+        gap: 20px;
     }
 }
