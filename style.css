@@ -183,13 +183,13 @@ body{
     }
 
     .empresa_logo{
-        padding-left: 15%;
         font-size: 33px;
     }
 
 
     .texto__span{
     font-size: 10.5px;
+    text-align: center;
 }
     .apresentacao{
         flex-direction: column;
@@ -211,7 +211,7 @@ body{
         gap: 0px
     }
     .texto__span{
-        padding: 0% 5% 0% 10%;
+        padding: 0% 5% 0% 5%;
         width: 50%;
         justify-content: center;
         text-align: center;
